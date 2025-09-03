@@ -959,12 +959,12 @@ a:hover, a:focus {
 
 #main-menu-wrapper .menusection{
     font-family: 'Roboto', Arial, Helvetica, sans-serif;
-    font-weight: 400;
-    font-size: 13px;
+    font-weight: 600;
+    font-size: 20px;
     line-height: 40px;
     padding-left: 24px;
     margin: 10px 0 0px 0;
-    color: #fffdfd;
+    color: #343a40;
     text-transform: uppercase;
 }
 
@@ -1555,8 +1555,8 @@ input[type=checkbox], input[type=color], input[type=date], input[type=datetime-l
     background: transparent;
 }
 .btn.btn-border.btn-purple {
-    border: 2px solid #6A1B9A;
-    color: #6A1B9A;
+    border: 2px solid #1e1e1f;
+    color: #673ab7;
     background: transparent;
 }
 .btn.btn-border.btn-primary {
@@ -4764,8 +4764,8 @@ a.cke_button_off:hover, .cke_hc a.cke_button_off:focus, .cke_hc a.cke_button_off
 
 .has-gradient-to-right-bottom2 {
     background-image: -webkit-linear-gradient(to right, #6A1B9A, #6A1B9A) !important;
-    background-image: -webkit-gradient(linear, left top, left bottom, from(to right), color-stop(#6A1B9A), to(#6A1B9A)) !important;
-    background-image: linear-gradient(to right bottom, #6A1B9A, #6A1B9A) !important;
+    background-image: -webkit-gradient(linear, left top, left bottom, from(to right), color-stop(#673ab7), to(#6A1B9A)) !important;
+    background-image: linear-gradient(to right bottom, #673ab7, #6A1B9A) !important;
 }
 .border-gradient{
     border:2px solid transparent;
@@ -5880,14 +5880,14 @@ code {
 .page-topbar.chat_shift .quick-area .pull-right {
     margin-right: 60px !important;
 }
-/*.page-topbar.chat_shift .chat-toggle-wrapper{
+.page-topbar.chat_shift .chat-toggle-wrapper{
   background-color: #333333;
 }
 
 .page-topbar .quick-area .pull-right .info-menu{
   padding: 0px;
 }
-*/
+
 
 .page-topbar.sidebar_shift .logo-area {
     width: 60px;
@@ -5953,10 +5953,10 @@ code {
 /*collapsed menu and chat open states*/
 
 .page-topbar.sidebar_shift .logo-area {
-    background-color: #e77512;
+    background-color: #ced4da;
 }
 .page-topbar.chat_shift .logo-area {
-    background-color: #e77512;
+    background-color: #ced4da;
 }
 .chatapi-windows.hideit {
     bottom: -300px;
