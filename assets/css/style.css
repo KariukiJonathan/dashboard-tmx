@@ -7825,7 +7825,7 @@ border-left: 3px solid transparent;
     border-color: rgba(50, 50, 58, 0.1);
 }
 .navbar-primary .navbar-toggle .icon-bar {
-    background-color: #cccccc;
+    background-color: #6c757d;
 }
 .navbar-primary .navbar-toggle:hover, .navbar-primary .navbar-toggle:focus {
     background-color: rgba(50, 50, 58, 0.4);
@@ -7852,10 +7852,10 @@ border-left: 3px solid transparent;
     margin: 10px 0 0 0;
 }
 .search_data .nav-tabs>li>a {
-    background-color: #eeeeee;
+    background-color: #6c757d;
 }
 .search_data .nav>li>a:hover, .search_data .nav>li>a:focus {
-    background-color: #fafafa;
+    background-color: #6c757d;
 }
 .search_data .tab-content {
     padding: 30px 15px 30px 15px;
