@@ -1560,8 +1560,8 @@ input[type=checkbox], input[type=color], input[type=date], input[type=datetime-l
     background: transparent;
 }
 .btn.btn-border.btn-primary {
-    border: 2px solid #e77512;
-    color: #e77512;
+    border: 2px solid #000000;
+    color: #A664F2;
     background: transparent;
 }
 .btn.btn-border.btn-secondary {
@@ -1606,7 +1606,7 @@ input[type=checkbox], input[type=color], input[type=date], input[type=datetime-l
     color: #ffffff;
 }
 .btn.btn-primary {
-    background: #e77512;
+    background: #A664F2;
     color: #ffffff;
     outline: none;
 }
@@ -4763,9 +4763,9 @@ a.cke_button_off:hover, .cke_hc a.cke_button_off:focus, .cke_hc a.cke_button_off
 }
 
 .has-gradient-to-right-bottom2 {
-    background-image: -webkit-linear-gradient(to right, #6A1B9A, #6A1B9A) !important;
-    background-image: -webkit-gradient(linear, left top, left bottom, from(to right), color-stop(#673ab7), to(#6A1B9A)) !important;
-    background-image: linear-gradient(to right bottom, #673ab7, #6A1B9A) !important;
+    background-image: -webkit-linear-gradient(to right, #6A1B9A, #A664F2) !important;
+    background-image: -webkit-gradient(linear, left top, left bottom, from(to right), color-stop(#673ab7), to(#A664F2)) !important;
+    background-image: linear-gradient(to right bottom, #673ab7, #A664F2) !important;
 }
 .border-gradient{
     border:2px solid transparent;
