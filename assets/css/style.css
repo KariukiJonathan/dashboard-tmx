@@ -7726,7 +7726,7 @@ border-left: 3px solid transparent;
     -webkit-box-shadow: inset 0px 0px 5px rgba(86, 96, 117, 0.15);
 }
 .navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:hover, .navbar-default .navbar-nav>.active>a:focus {
-    color: #555;
+    color: #6c757d;
     background-color: #eaeaea;
 }
 .navbar-default .navbar-toggle {
@@ -7806,17 +7806,17 @@ border-left: 3px solid transparent;
     background-image: none;
 }
 .navbar.navbar-primary .navbar-nav>li>a:hover, .navbar.navbar-primary .navbar-nav>li>a:focus {
-    color: #ffffff;
+    color: #6c757d;
     background-color: transparent;
 }
 .navbar-primary .navbar-brand {
-    color: #f5f5f5;
+    color: #6c757d;
 }
 .navbar-brand, .navbar-nav>li>a {
     text-shadow: none;
 }
 .navbar-primary .navbar-nav>li>a {
-    color: #f5f5f5;
+    color: #6c757d;
 }
 .navbar-inverse .navbar-toggle .icon-bar {
     background-color: #bcbcbc;
