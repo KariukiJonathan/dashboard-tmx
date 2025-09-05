@@ -369,6 +369,13 @@ a:hover, a:focus {
     padding: 3px 8px;
     color: #ffffff;
 }
+.bg-accent2 {
+    background-image: -webkit-linear-gradient(to right, #e8962e, #673ab7) !important;
+    background-image: -webkit-gradient(linear, left top, left bottom, from(to right), color-stop(#e8962e), to(#673ab7)) !important;
+    background-image: linear-gradient(to right bottom, #e8962e, #673ab7) !important;
+    padding: 3px 8px;
+    color: #ffffff;
+}
 .bg-secondary {
     background: #9e9e9e;
     padding: 3px 8px;
