@@ -10,7 +10,7 @@
       name="viewport"
       content="width=device-width, initial-scale=1, shrink-to-fit=no"
     />
-    <title>Bitcoin & Cryptocurrency trading Dashboard</title>
+    <title>TMX Gold Coin - Email Verification</title>
     <meta content="" name="description" />
     <meta content="" name="author" />
 
@@ -109,12 +109,9 @@
               style="max-width: 64px"
             />
             <div class="login-header">
-              <h4 class="bold color-white">Forgot Password</h4>
+              <h4 class="bold color-white">Enter OTP Code</h4>
               <h4>
-                <small
-                  >Enter your email or phone number to receive a reset link for
-                  your account</small
-                >
+                <small>Enter the OTP code received.</small>
               </h4>
             </div>
           </div>
@@ -130,13 +127,13 @@
                 <div class="row">
                   <div class="col-xs-12">
                     <div class="form-group">
-                      <label class="form-label">Email / Phone number</label>
+                      <label class="form-label">Code</label>
                       <div class="controls">
                         <input
                           type="text"
                           class="form-control"
                           name="formfield2"
-                          placeholder="test@gmail.com | (+254)721356245"
+                          placeholder="xxxxxx"
                         />
                       </div>
                     </div>
@@ -156,9 +153,9 @@
                     <div class="pull-left">
                       <a
                         href="#"
-                        id="sendLinkBtn"
+                        id="sendLinkBtn2"
                         class="btn btn-primary mt-10 btn-corner right-15"
-                        >Send Link!</a
+                        >Verify</a
                       >
 
                       <p
@@ -169,7 +166,17 @@
                           margin-top: 15px;
                         "
                       >
-                        ✅ Link has been sent to you!
+                        ✅ Your account has been verified
+                      </p>
+                      <p
+                        id="successMessage"
+                        style="
+                          display: none;
+                          color: rgb(128, 83, 0);
+                          margin-top: 15px;
+                        "
+                      >
+                        Redirecting you to the home page
                       </p>
                       <!-- <a
                         href="ui-register.html"

@@ -228,7 +228,49 @@ jQuery(function($) {
 
       setTimeout(() => {
         $("#successMessage").fadeOut();
-      }, 5000);
+      }, 3000);
+
+      setTimeout(function () {
+    window.location.href = "ui-enter-otp.html";
+  }, 3000);
+    });
+  });
+
+     /*--------------------------------
+        Verify Email
+     --------------------------------*/
+  $(document).ready(function () {
+    $("#sendLinkBtn2").on("click", function () {
+
+      // Show the message
+      $("#successMessage").fadeIn();
+
+      setTimeout(() => {
+        $("#successMessage").fadeOut();
+      }, 3000);
+
+      setTimeout(function () {
+    window.location.href = "ui-change-password.html";
+  }, 3000);
+    });
+  });
+
+  /*--------------------------------
+        Change password
+     --------------------------------*/
+  $(document).ready(function () {
+    $("#sendLinkBtn3").on("click", function () {
+
+      // Show the message
+      $("#successMessage").fadeIn();
+
+      setTimeout(() => {
+        $("#successMessage").fadeOut();
+      }, 3000);
+
+      setTimeout(function () {
+    window.location.href = "index-dashboard.html";
+  }, 3000);
     });
   });
 
